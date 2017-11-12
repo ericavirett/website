@@ -1,0 +1,39 @@
+body {
+			background: black;
+			}
+
+marquee {
+			line-spacing: 1em;
+			}
+
+#i {
+			color:pink;
+			font-family: courier new;
+			font-size: 150px;
+			line-height: 1em;
+			}
+			
+#love {
+			color:pink;
+			font-family: courier new;
+			font-size: 150px;
+			}
+
+#you {
+			color:pink;
+			font-family: courier new;
+			font-size: 150px;
+			}
+			
+#molly {
+			color:pink;
+			font-family: courier new;
+			font-size: 150px;
+			}
+			
+p {
+			font-size: 15px;
+			font-family: courier new;
+			color: green;
+			text-align: center;
+			}

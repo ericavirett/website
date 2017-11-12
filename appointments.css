@@ -1,0 +1,125 @@
+/* background image */
+body {
+		background-image: url("brush copy.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		margin: 0;
+  		top: 0;
+  		left: 0;
+  		bottom: 0;
+  		right: 0;
+  		position: absolute; 
+		}
+		
+				/* navigation */
+.navbar {
+		overflow: hidden;
+		background-color: #ffffff;
+		position: fixed;
+		top: 2em;
+		width: 100%;
+		box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.8);
+		top: 2%;
+		z-index: 3;
+		 }
+
+.navbar a {
+		float: left;
+		display: block;
+		color: #000000;
+		text-align: left;
+		padding: 17px 16px;
+		text-decoration: none;
+		font-size: 12px;
+		font-family: 'Lato', sans-serif;
+		-webkit-transition: all .5s;
+     	}
+     	
+.navbar a:hover {
+		background: none;
+		color: #828bad;
+     	}
+		
+		/* Eric Allan Hair */
+#logo {
+		font-size: 23px;
+		font-weight: 600;
+		font-family: courier;
+		word-spacing: 1%;
+		padding: 9px;
+		}
+		   		
+		/* Call button */
+#call {
+    	color: #22cc00;
+    	padding: 17px 16px;
+    	text-align: center;
+    	font-size: 12px;
+    	font-family: 'Lato', sans-serif;
+    	font-weight: 600;
+   		float:right;
+		-webkit-transition: all .5s;
+     	}
+     	
+#call:hover {
+		background: #22cc00;
+		color: #ffffff;
+		}
+     	
+   		/* Text button */
+#sms {
+    	color: #0077ff;
+    	padding: 17px 16px;
+    	text-align: center;
+    	font-size: 12px;
+    	font-family: 'Lato', sans-serif;
+    	font-weight: 600;
+   		float:right;
+   		-webkit-transition: all .5s;
+     	}
+     	
+#sms:hover {
+		background: #0077ff;
+		color: #ffffff;
+     	}
+
+     	     	
+.appointments {
+		border: 1px solid black;
+		position: fixed;
+		height: 100%;
+		width: 50%;
+		top: 90px;
+		bottom: 0;
+		right: 0;
+		}
+
+#map {
+		position: fixed;
+		width: 40%;
+		height: 100%;
+		top: 300px;
+		bottom: 0;
+		box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.8);
+		}
+		
+.locationbox {
+		position: fixed;
+		top: 90px;
+		width: 40%;
+		height: 100%;
+		
+}
+
+#location {
+		border: 1px solid black;
+		background-color: #ffffff;
+		position: relative;
+		padding: 5% 0%;
+		font-family: 'Lato', sans-serif;
+		font-size: 25px;
+		text-align: center;
+		font-weight: 100;
+		border: 1px solid black;
+		}

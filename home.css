@@ -1,0 +1,161 @@
+/* home2.css */
+
+/* font */
+* {
+	font-family: Lato, arial, sans-serif;
+}
+/* end font */
+
+/* background */
+body {
+	background-image: url("Scissor copy.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Lato, arial, sans-serif;
+}
+/* end background */
+
+
+/* navigation */
+#navnav {
+	width: 90%;
+	position: fixed;
+	left: 5%;
+	right: 5%;
+	top: 3%;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 
+	0px 3px 10px 0px rgba(0,0,0,0.8);
+	z-index: 100;
+	font-family: Lato, arial, sans-serif;
+}
+.navbar-brand {
+	font-family: courier;
+}
+.navbar-toggler {
+	background-color: #d2def2;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 
+	0px 3px 10px 0px rgba(0,0,0,0.8);
+}
+#mobilecall {
+	border-radius: 7px;
+   	color: #22cc00;
+    font-weight: 600;
+	-webkit-transition: all .5s;
+	width: 45px;
+}
+#mobilecall:hover {
+	background: #22cc00;
+	color: #ffffff;
+}
+
+/* end navigation */
+
+
+/* bottom nav */
+	.col-sm-12 {
+  max-width: 100%;
+  overflow: auto;
+  background: #383838;
+}
+.col-sm-4 {
+  float: left !important;
+  display: inline-block !important;
+}
+.col-sm-4 a {
+  height: 130px;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#location {
+	font-size: 15px;
+}
+#hours {
+	font-size: 15px;
+	color: #d2def2;
+}
+#fine {
+	font-size: 10px;
+	color: #d2def2;
+}	
+/* end bottom nav */
+
+
+/* content */
+.contents {
+	font-family: Lato, arial, sans-serif;
+	width: 60%;
+	position: fixed;
+	top: 150px;
+	left: 20%;
+	right: 20%;
+	text-align: center;
+}
+.damn h1 {
+	font-size: 350%;
+	font-weight: 900;
+	color: #dce4f4;
+}
+#book a {
+	padding: 10px 12px;
+	color: #000000;
+	border-radius: 5px;
+	position: relative;
+	background: #d2def2;
+	border: none;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 
+	0px 3px 10px 0px rgba(0,0,0,0.8);
+	-webkit-transition: all .5s;
+	top: 10px;
+}
+#book a:hover{
+	text-decoration: none;
+	background: #f7f091;
+	color: #d391f7;
+}
+.soft {
+	color: #34373f;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+/* end content */
+	
+	
+/* desktop only */
+@media (min-width: 435px) {
+	#book a {
+		color: #34373f;
+		top: 50px;
+		background-image: none;
+		font-weight: 900;
+		border-radius: 5px;
+	}
+	.soft {
+		
+		position: relative;
+		top: 70px;
+	}
+		#mobilecall {
+		display: none;
+	}
+}
+/* end desktop only */
+	
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+

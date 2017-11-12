@@ -1,0 +1,131 @@
+/* services.css */
+
+
+/* font */
+* {
+	font-family: Lato, arial, sans-serif;
+}
+/* end font */
+
+
+/* top navigation */
+.col { 
+	border: 1px solid transparent; 
+}
+#navnav {
+	width: 90%;
+	position: fixed;
+	left: 5%;
+	right: 5%;
+	top: 3%;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 
+	0px 3px 10px 0px rgba(0,0,0,0.8);
+	z-index: 100;
+}
+.navbar-brand {
+	font-family: courier;
+}
+.navbar-toggler {
+	background-color: #d2def2;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 
+	0px 3px 10px 0px rgba(0,0,0,0.8);
+}
+#mobilecall {
+	border-radius: 5px;
+   	color: #22cc00;
+    font-weight: 600;
+	-webkit-transition: all .5s;
+	width: 45px;
+}
+#mobilecall:hover {
+		background: #22cc00;
+		color: #ffffff;
+}
+@media (min-width: 435px) {
+	#mobilecall {
+		display: none;
+	}
+}
+/* end top navigation */
+
+
+/* bottom nav */
+	.col-sm-12 {
+  max-width: 100%;
+  overflow: auto;
+  background: #383838;
+}
+.col-sm-4 {
+  float: left !important;
+  display: inline-block !important;
+}
+.col-sm-4 a {
+  height: 130px;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#location {
+	font-size: 15px;
+}
+#hours {
+	font-size: 15px;
+	color: #d2def2;
+}
+#fine {
+	font-size: 10px;
+	color: #d2def2;
+}	
+/* end bottom nav */
+	
+
+/* desktop only */
+@media (min-width: 890px) {
+	#mobilecall {
+		display: none;	
+	}
+}
+/* end desktop only */
+
+/* content */
+h1 {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	color: #34373f;
+}
+p {
+	z-index: 90; 
+	color: #34373f;
+	position: relative; 
+	width: 60%; 
+	height: 200px; 
+	left: 20%; 
+	overflow: scroll;
+}
+
+#bottomspacer {
+	height: 30px;
+}
+@media (max-width: 575px) {
+	#spacer {
+		display: none;
+	}
+	#bottomspacer {
+		height: 20px;
+	}
+}
+/* end content */
+
+
+
+
+
+
+
+
+
+
+
+
