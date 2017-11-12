@@ -17,7 +17,10 @@ body {
 /* end background */
 
 
-/* navigation */
+/* top navigation */
+.col { 
+	border: 1px solid transparent; 
+}
 #navnav {
 	width: 90%;
 	position: fixed;
@@ -27,7 +30,6 @@ body {
 	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 
 	0px 3px 10px 0px rgba(0,0,0,0.8);
 	z-index: 100;
-	font-family: Lato, arial, sans-serif;
 }
 .navbar-brand {
 	font-family: courier;
@@ -38,18 +40,22 @@ body {
 	0px 3px 10px 0px rgba(0,0,0,0.8);
 }
 #mobilecall {
-	border-radius: 7px;
+	border-radius: 5px;
    	color: #22cc00;
     font-weight: 600;
 	-webkit-transition: all .5s;
 	width: 45px;
 }
 #mobilecall:hover {
-	background: #22cc00;
-	color: #ffffff;
+		background: #22cc00;
+		color: #ffffff;
 }
-
-/* end navigation */
+@media (min-width: 435px) {
+	#mobilecall {
+		display: none;
+	}
+}
+/* end top navigation */
 
 
 /* bottom nav */
