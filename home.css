@@ -8,6 +8,7 @@
 
 /* background */
 body {
+	position: relative;
 	background-image: url("Scissor copy.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
